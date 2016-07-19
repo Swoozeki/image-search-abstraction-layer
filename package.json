@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Swoozeki/image-search-abstraction-layer#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "mongodb": "^2.2.1"
+    "mongodb": "^2.2.1",
+    "request": "^2.73.0"
   }
 }
