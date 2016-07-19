@@ -51,6 +51,6 @@ app.get('/api/imagesearch/:keywords',(req,res)=>{
        
     })
 })
-app.use(express.static(__dirname))
+app.use('/api/imagesearch',express.static(__dirname))
 
 app.listen(8080,()=>console.log("listening on port 8080"))
